@@ -200,15 +200,30 @@ input {
   color: var(--blue-dark);
 }
 
+@media (min-width: 1780px) {
+  .header-wrapper {
+    width: 100%
+  }
+  .blog-box {
+    width: 80%;
+  }
+}
+
 @media (max-width: 903px) {
+  .header-wrapper {
+    width: 100%
+  }
   .blog-box {
     width: 80%;
   }
 }
 
 @media (max-width: 664px) {
+  .header-wrapper {
+    width: 100%
+  }
     input {
-      width: 60%;
+      width: 80%;
     }
     .blog-box {
       width: 80%;
@@ -216,7 +231,7 @@ input {
 }
 
 @media (max-width: 480px) {
-  .header {
+  .header-wrapper {
     width: 100%;
   }
   h1  {
@@ -233,7 +248,7 @@ input {
     font-size: 14px;
   }
   .blog-box {
-    width: 90%;
+    width: 80%;
   }
   .blog-post i{
     margin-right: 10px;
