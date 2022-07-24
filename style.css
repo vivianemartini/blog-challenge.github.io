@@ -67,12 +67,15 @@ nav p {
   width: 80%;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
-  height: 65px;
+  height: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
+}
 
+.search-area:hover{
+  border: 1px solid var(--white);
 }
 
 header i {
@@ -94,6 +97,7 @@ input {
   background: none;
   outline: none;
   margin-left: 10px;
+  width: 90%;
 }
 
 ::placeholder {
@@ -146,6 +150,7 @@ input {
 
 .blog-post i {
   color: var(--blog-date);
+  cursor: pointer;
 }
 
 .blog-post i:hover {
@@ -193,4 +198,37 @@ input {
 
 .footer a:hover {
   color: var(--blue-dark);
+}
+
+//query
+@media only screen and (max-width: 768p)x {
+
+
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    border: 1px solid red;
+    width: 100%
+  }
+  h1  {
+    font-size: 18px;
+  }
+  nav p {  
+    font-size: 18px;
+  }
+  header i {
+    font-size: 14x;
+  }
+  input {
+    width: 60%;
+    font-size: 14px;
+  }
+  .blog-box {
+    width: 90%;
+  }
+  .blog-post i{
+    margin-right: 10px;
+  }
 }
