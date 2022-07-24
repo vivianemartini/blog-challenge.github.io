@@ -200,17 +200,24 @@ input {
   color: var(--blue-dark);
 }
 
-//query
-@media only screen and (max-width: 768p)x {
-
-
+@media (max-width: 903px) {
+  .blog-box {
+    width: 80%;
+  }
 }
 
+@media (max-width: 664px) {
+    input {
+      width: 60%;
+    }
+    .blog-box {
+      width: 80%;
+    }
+}
 
 @media (max-width: 480px) {
   .header {
-    border: 1px solid red;
-    width: 100%
+    width: 100%;
   }
   h1  {
     font-size: 18px;
@@ -230,5 +237,17 @@ input {
   }
   .blog-post i{
     margin-right: 10px;
+  }
+  .blog-date {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .blog-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .blog-text {
+    font-size: 14px;
+    line-height: 26px;
   }
 }
