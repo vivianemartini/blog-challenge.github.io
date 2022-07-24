@@ -199,3 +199,36 @@ input {
 .footer a:hover {
   color: var(--blue-dark);
 }
+
+//query
+@media only screen and (max-width: 768p)x {
+
+
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    border: 1px solid red;
+    width: 100%
+  }
+  h1  {
+    font-size: 18px;
+  }
+  nav p {  
+    font-size: 18px;
+  }
+  header i {
+    font-size: 14x;
+  }
+  input {
+    width: 60%;
+    font-size: 14px;
+  }
+  .blog-box {
+    width: 90%;
+  }
+  .blog-post i{
+    margin-right: 10px;
+  }
+}
