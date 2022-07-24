@@ -17,7 +17,7 @@
             </nav>
             <div class="search-area">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" name="pesquisar" placeholder="Pesquisar no blog">
+                <input type="search" id="search" name="pesquisar" placeholder="Pesquisar no blog">
             </div>
         </div>
     </header>
@@ -26,7 +26,7 @@
         <section class="blog-box">
             <div class="blog-post">
                 <p class="blog-date">02 de jul, 2021</p>
-                <i class="fa-solid fa-heart"></i>
+                <i onclick="changeHeartColor(this)" id="heart" class="fa-solid fa-heart"></i>
             </div>
             
             <p class="blog-title">Agora é oficial: o Windows 11 está vindo</p>
@@ -36,7 +36,7 @@
         <section class="blog-box">
             <div class="blog-post">
                 <p class="blog-date">02 de jul, 2021</p>
-                <i class="fa-solid fa-heart"></i>
+                <i onclick="changeHeartColor(this)" class="fa-solid fa-heart"></i>
             </div>
 
             <p class="blog-title">Tim Berners-Lee vai leiloar código-fonte da web</p>
@@ -46,7 +46,7 @@
         <section class="blog-box">
             <div class="blog-post">
                 <p class="blog-date">02 de jul, 2021</p>
-                <i class="fa-solid fa-heart"></i>  
+                <i onclick="changeHeartColor(this)" class="fa-solid fa-heart"></i>  
             </div>  
 
             <p class="blog-title">Tem Firefox novo no pedaço e você vai querer migrar</p>
@@ -56,7 +56,7 @@
         <section  class="blog-box">
             <div class="blog-post">
                 <p class="blog-date">02 de jul, 2021</p>
-                <i class="fa-solid fa-heart"></i>
+                <i onclick="changeHeartColor(this)" class="fa-solid fa-heart"></i>
             </div>
             <p class="blog-title">John McAfee, criador do antivírus McAfee, morre</p>
             <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
@@ -66,5 +66,7 @@
     <footer>
         <p class="footer"><a href="https://github.com/vivianemartini"  target="_blank" >2022 - Developed by Viviane Martini</a></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
