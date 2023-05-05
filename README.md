@@ -13,3 +13,9 @@ This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channe
 * Flexbox
 * Media Queries
 * CSS Variables
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks Codelandia
